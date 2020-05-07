@@ -1,5 +1,88 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+.text_align_box{
+  text-align: center;
+}
+.text_align{
+  background-color: #e6f2ff;
+  padding: 10px;
+  width: 90px;
+  display: inline-block;
+}
+
+
+
+
+.margin{
+  background-color: #e6f2ff;
+  padding: 10px;
+  width: 90px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+
+
+.table_parent1{
+  display: table;
+}
+.table_parent2{
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+.table{
+  display: inline-block;
+  padding: 10px;
+  background-color: #fff;
+}
+/* divとpだけにしてp(display: table-cell)にmargin autoを設定して中央寄せにするのではダメなのか？ */
+
+
+
+.flex_parent{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.flex{
+  padding: 10px;
+  background-color: #fff;
+}
+
+
+/* 可変??・固定...? */
+.position_stable_parent{
+  position: relative;
+}
+.position_stable{
+  position: absolute;
+  /* 直す前
+  top: 85px;
+  left: 95px; */
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+
+.position_flexible_parent{
+  /* 直しで加 */
+  position: relative;
+}
+.position_flexible{
+  /* 直す前
+  transform: translate(95px, 85px); */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  /* text-align: center;は必要？ */
+  transform: translate(-50%, -50%)
+}
+
+
 
 /* 回答はここに書いてね */
