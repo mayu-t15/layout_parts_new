@@ -10,14 +10,11 @@ padding: 20px;
   display: table;
   width: 100%;
   text-align: center;
-  /* margin-top: 20px; */
+  margin-top: 20px;
 }
 
-/* .table:first-child{
+.table:first-child{
   margin-top: 0;
-} */
-.table:last-child{
-  margin-top: 20px;
 }
 
 .cell{
@@ -25,24 +22,24 @@ padding: 20px;
   padding: 20px 0;
 }
 
-.c1{
+.orange_box{
   background-color:#fdc8b8;
   width: 100px;
 }
-.c2{
+.pink_box{
   background-color:#e0abd9;
 }
-.c3{
+.blue_box{
   background-color: #b6d8ed;
   width: 100px;
 }
-.c4{
+.yellow_box{
   background-color: #e5d32e;
 }
-.c5{
+.red_box{
   background-color: #ec8f9a;
 }
-.c6{
+.green_box{
   background-color: #8fdcad;
   width: 500px;
 }
