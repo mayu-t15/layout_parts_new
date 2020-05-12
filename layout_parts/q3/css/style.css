@@ -7,8 +7,7 @@
   text-align: center;
 }
 
-
-tbody tr td{
+.table tbody td{
   font-size:16px;
   line-height:22px;
 }
@@ -20,17 +19,17 @@ tbody tr td{
   line-height: 26px
 }
 
-th, td{
+.table th, td{
   border: solid 1px #dedede;
   padding: 10px 0;
 }
 
-tbody tr:nth-child(even){
+.table tbody tr:nth-child(even){
   background-color: #ecf1f2;
 }
 
 
-tbody tr:last-child{
+.table tbody tr:last-child{
   border-top: dashed #000 2px;
 }
 
