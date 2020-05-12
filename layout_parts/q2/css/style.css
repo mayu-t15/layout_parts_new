@@ -1,6 +1,13 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+.clearfix::after{
+  content: “”;
+  display: block;
+  clear: both;
+  }
+  
+
 .q2_container{
   width: 940px;
   padding: 20px;
