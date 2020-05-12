@@ -11,8 +11,9 @@
 .q1_content{
   width: 940px;
   background-color: #eff3f4;
-  padding: 20px 0;
+  padding: 20px;
   margin: 0 auto;
+  box-sizing: border-box;
 }
 
 
@@ -32,5 +33,10 @@
   border:10px solid #022336;
   padding:20px;
 }
+
+.q1_content_box:first-child{
+  margin-left: 0;
+}
+
 
 /* 回答はここに書いてね */
