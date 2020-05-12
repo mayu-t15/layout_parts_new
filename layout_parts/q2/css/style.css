@@ -10,13 +10,13 @@
 
 }
 
-.upper > img{
+.balloon{
   margin-bottom: 10px;
   margin-right: 20px;
   float: left;
 }
 
-.lower > img{
+.lights{
   margin-bottom: 10px;
   margin-left: 20px;
   float: right;;

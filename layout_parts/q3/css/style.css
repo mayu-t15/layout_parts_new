@@ -7,15 +7,13 @@
   text-align: center;
 }
 
-.wide{
-  width: calc(100% / 6);
-}
 
 tbody tr td{
   font-size:16px;
   line-height:22px;
 }
-table tr th{
+
+.table th{
   background-color: #2244aa;
   color: #fff;
   font-size: 18px;
@@ -31,13 +29,6 @@ tbody tr:nth-child(even){
   background-color: #ecf1f2;
 }
 
-
-th{
-  background-color: #2244aa;
-  color: #fff;
-  font-size: 18px;
-  line-height: 26px
-}
 
 tbody tr:last-child{
   border-top: dashed #000 2px;

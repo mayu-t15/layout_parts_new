@@ -6,7 +6,7 @@
 }
 .text_align{
   background-color: #e6f2ff;
-  padding: 10px;
+  padding: 10px 0;
   width: 90px;
   display: inline-block;
 }
@@ -16,7 +16,7 @@
 
 .margin{
   background-color: #e6f2ff;
-  padding: 10px;
+  padding: 10px 0;
   width: 90px;
   margin: 0 auto;
   text-align: center;
@@ -27,6 +27,7 @@
 .table_parent1{
   display: table;
 }
+
 .table_parent2{
   display: table-cell;
   vertical-align: middle;
@@ -37,7 +38,7 @@
   padding: 10px;
   background-color: #fff;
 }
-/* divとpだけにしてp(display: table-cell)にmargin autoを設定して中央寄せにするのではダメなのか？ */
+
 
 
 
@@ -79,7 +80,6 @@
   position: absolute;
   top: 50%;
   left: 50%;
-  /* text-align: center;は必要？ */
   transform: translate(-50%, -50%)
 }
 
