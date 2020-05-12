@@ -9,18 +9,9 @@
   position: relative;
 }
 
+
 .numbers{
   position: absolute;
-}
-
-.nine{
-  position: fixed;
-  top: 10px;
-  left: 10px;
-}
-
-
-.numbers{
   width: 100px;
   height: 100px;
   text-align: center;
@@ -29,17 +20,6 @@
   font-weight: bold;
   /* 文字の大きさは？ */
 }
-
-.eight:after{
-  position: absolute;
-  left: 80px;
-  top: 0px;
-  background-color: #ffefd3;
-  width: 20px;
-  height: 20px;
-  content: "";
-}
-
 
 .one{
   background-color: #ffefd3; 
@@ -90,7 +70,21 @@
   left: 120px;
   z-index: 8;
 }
+
+.eight:after{
+  position: absolute;
+  left: 80px;
+  top: 0px;
+  background-color: #ffefd3;
+  width: 20px;
+  height: 20px;
+  content: "";
+}
+
 .nine{
   background-color: #2b69a3;
+  position: fixed;
+  top: 10px;
+  left: 10px;
 }
 /* 回答はここに書いてね */
