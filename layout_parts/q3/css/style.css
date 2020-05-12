@@ -19,7 +19,7 @@
   line-height: 26px
 }
 
-.table th, td{
+.table th, .table td{
   border: solid 1px #dedede;
   padding: 10px 0;
 }
