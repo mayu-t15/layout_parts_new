@@ -1,5 +1,90 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+.box_contents {
+  font-size: 0;
+}
 
+.q7_clearfix::after {
+  content:"";
+  display: block;
+  clear: both;
+}
+
+.q7_1left {
+  width: 225px;
+  float: left;
+  margin-right: 50px;
+  box-sizing: border-box;
+} 
+
+.q7_1right {
+  width: 225px;
+  float: right;
+  box-sizing: border-box;
+}
+
+
+
+.q7_2table {
+  display: table;
+}
+
+.q7_2table_cell_left, .q7_2table_cell_right {
+  display: table-cell;
+  width: 225px;
+  vertical-align: middle;
+  background-clip: padding-box;
+  border-right:50px solid transparent;
+}
+
+.q7_2table_cell_right {
+  border-right: none;
+}
+
+
+
+.q7_3box {
+  font-size: 16px;
+  display: inline-block;
+  width: 225px;
+  vertical-align: middle;
+  box-sizing: border-box;
+  margin-left: 50px;
+}
+
+.q7_3box:first-child {
+  margin-left: 0;
+}
+/* うまくいかない */
+
+
+.q7_4parent {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
+}
+
+.q7_4flexitem {
+  width: 225px;
+  box-sizing: border-box;
+}
+
+
+.q7_5left, .q7_5right {
+  font-size: 16px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.q7_5left {
+  width: 300px;
+}
+
+.q7_5right {
+  width: 100%;
+  padding-left: 350px;
+  margin-left: -300px;
+  box-sizing: border-box;
+}
 /* 回答はここに書いてね */
