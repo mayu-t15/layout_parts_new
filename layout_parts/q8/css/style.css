@@ -29,12 +29,13 @@
   word-break: break-all;
   position: absolute;
   left: 0;
-  bottom: 0px;
+  bottom: 0;
+  /* imgboxに対してbottom: 0？なんでうまく配置されるのか */
 }
 
 
 
-.imgcar:hover{
+.imgbox:hover{
   transform: scale(1.5);
   transition-duration: 0.5s;
 }  
@@ -45,8 +46,7 @@
   left: 0;
 }  
 
-/* hoverを二つつけたら、imgcarのホバーが終わってからtrans_textboxのホバーが入るので挙動が変ななった。
-hoverをつけるセレクタの指定が違う？ */
+
 
 
 
