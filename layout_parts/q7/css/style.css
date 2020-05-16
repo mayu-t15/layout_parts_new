@@ -11,14 +11,14 @@
   clear: both;
 }
 
-.q7_1left {
+.q7_1textbox:first-child {
   width: 225px;
   float: left;
   margin-right: 50px;
   box-sizing: border-box;
 } 
 
-.q7_1right {
+.q7_1textbox:last-child {
   width: 225px;
   float: right;
   box-sizing: border-box;
@@ -30,7 +30,7 @@
   display: table;
 }
 
-.q7_2table_cell_left, .q7_2table_cell_right {
+.q7_2table_cell {
   display: table-cell;
   width: 225px;
   vertical-align: middle;
@@ -38,7 +38,7 @@
   border-right:50px solid transparent;
 }
 
-.q7_2table_cell_right {
+.q7_2table_cell:last-child {
   border-right: none;
 }
 
@@ -56,7 +56,7 @@
 .q7_3box:first-child {
   margin-left: 0;
 }
-/* うまくいかない */
+
 
 
 .q7_4parent {
