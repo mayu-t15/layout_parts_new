@@ -2,4 +2,36 @@
 
 /* 回答はここに書いてね */
 
+.comment_box {
+  margin: 0 auto;
+  width: 500px;
+  border: 5px solid #222;
+  font-size: 16px;
+  line-height: 16px;
+  border-radius: 30px;
+  position:relative;
+  box-sizing: border-box;
+}
+
+.comment {
+  padding: 20px;
+}
+
+.comment_box::before, .comment_box::after{
+  content: "";
+  position: absolute;
+  left: 32px;
+  border: 25px solid transparent;
+}
+
+.comment_box::before {
+  border-top-color: #222;
+  bottom: -50px;
+}
+
+.comment_box::after {
+  border-top-color: #fff;
+  bottom: -43px;
+}
+
 /* 回答はここに書いてね */
