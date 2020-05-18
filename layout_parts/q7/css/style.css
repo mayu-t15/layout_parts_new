@@ -1,8 +1,15 @@
 @charset "UTF-8";
-
+/* q7_1textboxクラスのcss指定の仕方を変更 */
+q7_2table_cellクラス、感覚をborder出なくpaddingで開けた
+共通するスタイルをboxbaseクラスでまとめた
 /* 回答はここに書いてね */
 .box_contents {
   font-size: 0;
+}
+
+.boxbase{
+  width: 225px;
+  box-sizing: border-box;
 }
 
 .q7_clearfix::after {
@@ -11,18 +18,28 @@
   clear: both;
 }
 
-.q7_1textbox:first-child {
+/* .q7_1textbox:first-child {
   width: 225px;
   float: left;
-  margin-right: 50px;
   box-sizing: border-box;
+  margin-right: 50px;
 } 
 
 .q7_1textbox:last-child {
   width: 225px;
   float: right;
   box-sizing: border-box;
+} */
+
+.q7_1textbox {
+  float: left;
+  margin-left: 50px;
+} 
+
+.q7_1textbox:first-child {
+  margin-left: 0;
 }
+
 
 
 
@@ -32,14 +49,13 @@
 
 .q7_2table_cell {
   display: table-cell;
-  width: 225px;
   vertical-align: middle;
-  background-clip: padding-box;
-  border-right:50px solid transparent;
+  /* background-clip: padding-box;
+  border-right:50px solid transparent; */
 }
 
 .q7_2table_cell:last-child {
-  border-right: none;
+  padding-left: 50px;
 }
 
 
@@ -47,9 +63,7 @@
 .q7_3box {
   font-size: 16px;
   display: inline-block;
-  width: 225px;
   vertical-align: middle;
-  box-sizing: border-box;
   margin-left: 50px;
 }
 
@@ -65,10 +79,10 @@
   justify-content: space-around;
 }
 
-.q7_4flexitem {
+/* .q7_4flexitem {
   width: 225px;
   box-sizing: border-box;
-}
+} */
 
 
 .q7_5left, .q7_5right {
