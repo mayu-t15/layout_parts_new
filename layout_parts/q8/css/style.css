@@ -35,10 +35,14 @@
 
 
 
-.imgbox:hover{
+.imgbox:hover .imgcar{
   transform: scale(1.5);
   transition-duration: 0.5s;
 }  
+
+.imgcar{
+  transition: 0.5s;
+}
 
 .imgbox:hover .trans_textbox {
   position: absolute;
