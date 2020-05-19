@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /* q7_1textboxクラスのcss指定の仕方を変更 */
-q7_2table_cellクラス、感覚をborder出なくpaddingで開けた
-共通するスタイルをboxbaseクラスでまとめた
+/* q7_2table_cellクラス、感覚をborder出なくpaddingで開けた
+共通するスタイルをboxbaseクラスでまとめた */
 /* 回答はここに書いてね */
 .box_contents {
   font-size: 0;
